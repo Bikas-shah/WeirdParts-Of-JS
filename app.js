@@ -57,6 +57,30 @@ const port = 3000
 // var myVar=1;  //o/p: myVar=1
 // a();
 
+//###########  Asynchronous code ( X )
+// for (var i = 0; i < 5; i++) {
+//   setTimeout(function () {
+//     console.log(i);
+//   }, i);
+// }
+
+//###########  Boolean and Exitance
+// console.log(Boolean(0/undefined/null/""));
+
+// var a;
+// a=0;
+// if(a||a===0){console.log('Something is defined !');}  // false||true = true
+
+//###########  Default value
+// console.log(undefined||'hello');
+// function greet(name){
+//   name=name||'<your name here>';   //Boolean('name')=true, Boolean()=false
+//   console.log("hello " +name);
+// }
+// greet('shah');
+// greet();
+
+
 
 
 app.listen(port, () => {
